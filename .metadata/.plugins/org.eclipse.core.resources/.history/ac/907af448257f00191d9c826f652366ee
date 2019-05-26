@@ -1,0 +1,8 @@
+
+public class Administrador extends Funcionario implements Autenticavel {
+
+	@Override
+	public double getBonficicacao() {
+		return 50;
+	}
+}

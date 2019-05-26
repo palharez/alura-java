@@ -1,0 +1,9 @@
+
+public class Cliente extends Autenticavel {
+
+	@Override
+	public double getBonficicacao() {
+		return 0;
+	}
+
+}

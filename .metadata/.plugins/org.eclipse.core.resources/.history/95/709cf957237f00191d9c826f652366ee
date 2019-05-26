@@ -1,0 +1,8 @@
+
+public class Gerente extends FuncionarioAutenticavel {
+
+	public double getBonficicacao() {
+		return super.getSalario();
+	}
+
+}

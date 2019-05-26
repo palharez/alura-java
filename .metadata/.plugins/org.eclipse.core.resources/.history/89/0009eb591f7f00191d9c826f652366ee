@@ -1,0 +1,6 @@
+
+public class EditoraVideo extends Funcionario {
+	public double getBonficicacao() {
+		return super.getBonficicacao() + 100;
+	}
+}

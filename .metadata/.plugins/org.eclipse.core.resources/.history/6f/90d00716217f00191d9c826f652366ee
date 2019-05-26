@@ -1,0 +1,14 @@
+
+public class SIstemaInterno {
+	
+	private int senha = 2222;
+	
+	public void autentica(Gerente gerente) {
+		if(g.autentic(this.senha)) {
+			System.out.println("Pode entrar no sistema");
+		} else {
+			System.out.println("Não pode entrar");
+		}
+	}
+
+}
