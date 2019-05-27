@@ -8,7 +8,7 @@ public class TesteContas {
 		ContaPoupanca contaPoupanca = new ContaPoupanca(22, 22);
 		contaPoupanca.deposita(200.0);
 		
-		contaCorrente.transfere(10.0, contaPoupanca);
+//		contaCorrente.transfere(10.0, contaPoupanca);
 		
 		System.out.println("CC: " + contaCorrente.getSaldo());
 		System.out.println("CP: " + contaPoupanca.getSaldo());
