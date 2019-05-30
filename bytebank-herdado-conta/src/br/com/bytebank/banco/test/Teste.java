@@ -1,7 +1,6 @@
 package br.com.bytebank.banco.test;
 
 import br.com.bytebank.banco.modelo.Cliente;
-import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 
@@ -18,7 +17,7 @@ public class Teste {
 		
 		System.out.println(cc);
 		System.out.println(cp);
-//		System.out.println(cliente);
+		System.out.println(cliente);
 		
 		println();
 		
